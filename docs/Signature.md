@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 **custom_risk_level** | **str** | The custom risk-level of the problem identified by the signature for this external_account. Valid values are low, medium, high | [optional] 
 **service** | [**Service**](Service.md) | Associated Service | [optional] 
 **service_id** | **int** | Associated Service ID | [optional] 
-**disabled_external_accounts** | [**ExternalAccount**](ExternalAccount.md) | Associated Disabled External Accounts | [optional] 
+**disabled_external_accounts** | [**list[ExternalAccount]**](ExternalAccount.md) | Associated Disabled External Accounts | [optional] 
 **suppressions** | [**list[Suppression]**](Suppression.md) | Associated Suppressions | [optional] 
 **suppression_ids** | **list[int]** | Associated Suppressions IDs | [optional] 
 

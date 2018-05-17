@@ -43,7 +43,7 @@ class Signature(BaseObject):
             'custom_risk_level': 'str',
             'service': 'Service',
             'service_id': 'int',
-            'disabled_external_accounts': 'ExternalAccount',
+            'disabled_external_accounts': 'list[ExternalAccount]',
             'suppressions': 'list[Suppression]',
             'suppression_ids': 'list[int]'
         }
@@ -340,7 +340,7 @@ class Signature(BaseObject):
         Associated Disabled External Accounts
 
         :return: The disabled_external_accounts of this Signature.
-        :rtype: ExternalAccount
+        :rtype: list[ExternalAccount]
         """
         return self._disabled_external_accounts
 
@@ -351,7 +351,7 @@ class Signature(BaseObject):
         Associated Disabled External Accounts
 
         :param disabled_external_accounts: The disabled_external_accounts of this Signature.
-        :type: ExternalAccount
+        :type: list[ExternalAccount]
         """
 
         self._disabled_external_accounts = disabled_external_accounts

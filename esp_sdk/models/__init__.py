@@ -53,6 +53,8 @@ from .region import Region
 from .report import Report
 from .role import Role
 from .scan_interval import ScanInterval
+from .scheduled_export import ScheduledExport
+from .scheduled_export_result import ScheduledExportResult
 from .service import Service
 from .signature import Signature
 from .stat import Stat

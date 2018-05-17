@@ -36,6 +36,7 @@ from .report_export_api import ReportExportApi
 from .reports_api import ReportsApi
 from .roles_api import RolesApi
 from .scan_intervals_api import ScanIntervalsApi
+from .scheduled_exports_api import ScheduledExportsApi
 from .services_api import ServicesApi
 from .signatures_api import SignaturesApi
 from .stat_compliance_controls_api import StatComplianceControlsApi

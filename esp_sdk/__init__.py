@@ -53,6 +53,8 @@ from .models.region import Region
 from .models.report import Report
 from .models.role import Role
 from .models.scan_interval import ScanInterval
+from .models.scheduled_export import ScheduledExport
+from .models.scheduled_export_result import ScheduledExportResult
 from .models.service import Service
 from .models.signature import Signature
 from .models.stat import Stat
@@ -105,6 +107,7 @@ from .apis.report_export_api import ReportExportApi
 from .apis.reports_api import ReportsApi
 from .apis.roles_api import RolesApi
 from .apis.scan_intervals_api import ScanIntervalsApi
+from .apis.scheduled_exports_api import ScheduledExportsApi
 from .apis.services_api import ServicesApi
 from .apis.signatures_api import SignaturesApi
 from .apis.stat_compliance_controls_api import StatComplianceControlsApi
